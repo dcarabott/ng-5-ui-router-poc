@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "noImplicitAny": true,
+	"typeRoots": [
+      "node_modules/@types/"
+    ]
+  },
+  "compileOnSave": true,
+  "include" : [
+    "./app/src/**/*.ts",
+    "./typings/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "app/src/vendor/node_modules",
+	"**/*.aot.ts"
+  ],
+  "paths": {
+//    "@uirouter/core": [
+//      "./node_modules/@uirouter/core/_bundles/ui-router-core.js"
+//    ],
+//    "@uirouter/angular": [
+//      "./node_modules/@uirouter/angular/_bundles/ui-router-ng2.js"
+//    ],
+//    "@uirouter/rx": [
+//      "./node_modules/@uirouter/rx/_bundles/ui-router-rx.js"
+//    ],
+//    "@uirouter/sticky-states": [
+//      "./node_modules/@uirouter/sticky-states/_bundles/ui-router-sticky-states.js"
+//    ]
+  }
+}
